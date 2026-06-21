@@ -1,0 +1,14 @@
+# Terraform provider cache (downloaded binaries)
+.terraform/
+
+# State files (contain resource IDs and may contain secrets)
+*.tfstate
+*.tfstate.*
+
+# Sensitive variable files
+*.tfvars
+*.tfvars.json
+
+# Local env / credentials
+.env
+.env.*
